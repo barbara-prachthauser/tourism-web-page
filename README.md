@@ -1,1 +1,2 @@
-hello
+This is a web page about tourism in the city of Itanhaém, which is located in São Paulo, Brazil.
+The city has many beautiful beaches to visit, but not only this, it has also some good restaurants and touristic atractions to see. So, let's build this page
