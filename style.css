@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+header{
+    background: lightblue;
+    padding: 22px;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.item{
+    border: 3px solid white;
+    list-style: none;
+    padding: 5px;
+    margin: 3px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+
+}
+
