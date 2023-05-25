@@ -1,29 +1,60 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
-}
-
-header{
-    background: lightblue;
-    padding: 22px;
-}
-
-.menu{
-    display: flex;
     
 }
 
-.item{
-    border: 3px solid white;
-    list-style: none;
-    padding: 5px;
-    margin: 3px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
+/* Barra de Navegação*/
 
+  header{
+    background: lightblue;
+    padding: 22px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+  }
+
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+    }
+
+        .logo{
+          border: 6px solid rgba(0, 139, 139, 0.712);
+          background-color: rgba(0, 194, 194, 0.596);
+          width: fit-content;
+          padding: 7px;
+          border-radius: 100px;
+        } 
+
+            .menu{
+                display: flex;
+                justify-content:end;
+                align-items: top;
+                flex-wrap: wrap;
+                
+            }
+
+                .item{
+                 border: 3px solid white;
+                 list-style: none;
+                 padding: 5px;
+                 margin: 3px;
+                 background-color: whitesmoke;
+                 border-radius: 10px;
+                }
+
+/* Conteúdo da Página Home */
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    background-color:whitesmoke;
+}    
+
+.content{
+    
 }
-
