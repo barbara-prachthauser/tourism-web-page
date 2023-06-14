@@ -1,15 +1,15 @@
 *{
     padding: 0px;
     margin: 0px;
-    
+    font-family: monospace;
 }
 
-/* Barra de Navegação*/
+/* Barra de Navegação */
 
   header{
-    background: lightblue;
+    background: #002E63;
     padding: 22px;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Arial', sans-serif;
     font-size: 30px;
   }
 
@@ -17,18 +17,19 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      font-weight: 700;
       
     }
 
         .logo{
-          border: 6px solid rgba(0, 139, 139, 0.712);
-          background-color: rgba(0, 194, 194, 0.596);
+          border: 6px solid whitesmoke;
+          background-color: #D3D3D3;
           width: fit-content;
-          padding: 7px;
-          border-radius: 100px;
+          padding: 10px;
+          border-radius: 20px;
         } 
 
-            .menu{
+            .menu_navbar{
                 display: flex;
                 justify-content:end;
                 align-items: top;
@@ -36,14 +37,32 @@
                 
             }
 
-                .item{
-                 border: 3px solid white;
+                .menu-item_navbar{
+                 color: #000; 
+                 border: 1px solid white;
                  list-style: none;
-                 padding: 5px;
                  margin: 3px;
                  background-color: whitesmoke;
                  border-radius: 10px;
                 }
+
+                .menu-item_navbar:hover{
+                  background-color: #E6D9CB;
+                  transition: 0.5s; 
+                }
+                
+                    .menu-link_navbar{
+                      display: block;
+                      padding: 12px;
+                    }
+                  a{
+                    text-decoration: none; 
+                    color: #000;                
+                  }
+                  
+                  a:visited{
+                    color: #000;
+                  }
 
 /* Conteúdo da Página Home */
 
@@ -52,9 +71,56 @@ h1{
     text-align: center;
     padding: 50px;
     margin: 20px;
-    background-color:whitesmoke;
+    background-color:#D3D3D3;
 }    
 
-.content{
-    
+.introduction{
+  font-size: 24px;
+  margin: 100px 20px 10px ;
+  padding: 20px;
+}
+
+.home-img{
+  display: block;
+  width: 200px;
+  margin: auto;
+  
+}
+
+.menu_content{
+   background-color: #C8E6D6; 
+   border: 5px dotted #566D7E;
+   padding: 80px;
+   margin: 20px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+   
+    .menu-item_content{
+      list-style: none;
+      border: 2px solid whitesmoke;
+      background: whitesmoke;
+      margin: 5px;
+      font-size: 30px;
+      text-align: center;
+      flex: 1 2 0;
+    }
+      .block{
+        margin: 5px;
+        width: auto;
+        height: 300px;
+        background-color: #E6D9CB;
+      }
+        .menu-link_content{
+          display: block;
+          padding: 20px;
+        }
+
+/* Footer */
+
+.footer{
+  text-align: center;
+  background-color:#E6D9CB;
+  padding: 40px;
+  margin-top: 50px;
 }
